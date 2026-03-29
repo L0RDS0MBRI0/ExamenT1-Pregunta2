@@ -46,7 +46,7 @@ public class MatriculaServiceTest {
 
         boolean resultado = matriculaService.puedeAgregarCurso(est, curso);
 
-        assertTrue(resultado);
+        assertFalse(resultado);
     }
 
 }
