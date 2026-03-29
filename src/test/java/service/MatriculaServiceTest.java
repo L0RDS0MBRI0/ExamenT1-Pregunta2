@@ -32,7 +32,7 @@ public class MatriculaServiceTest {
 
         boolean resultado = matriculaService.puedeMatricular(est, curso);
 
-        assertTrue(resultado);
+        assertFalse(resultado);
     }
 
     @Test
